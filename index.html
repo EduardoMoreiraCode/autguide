@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="scrollbar.css">
+     <link href="autguide-icon.png" rel="shortcut icon" type="image/x-icon" />
+    <link href="autguide-icon.png" rel="apple-touch-icon" />
+    <meta name="mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <title>AUTGUIDE</title>
+</head>
+
+<body>
+    <header>
+
+        <svg id="menuIcon" class="menu" xmlns="http://www.w3.org/2000/svg" width="30" height="24" viewBox="0 0 30 24">
+            <line class="menuLine" y1="2" x2="30" y2="2" stroke-width="4" />
+            <line class="menuLine" y1="22" x2="30" y2="22" stroke-width="4" />
+            <line class="menuLine" y1="12" x2="30" y2="12" stroke-width="4" />
+        </svg>
+
+
+        <h1 class="text-header">
+            AUT<br>GUIDE
+        </h1>
+        <div class="botao">
+            <label class="label" for="input-dark-mode">
+                <img alt="night mode" class="img" src="moon-icon.png">
+            </label>
+            <input class="checkTheme" type="checkbox" id="input-dark-mode">
+        </div>
+    </header>
+    <div id="menuzinho" class="dropdown">
+        <ul>
+            <a href="#fotos">
+                <li class="droplist">Fotos</li>
+            </a>
+            <hr>
+            <a href="#historia">
+                <li class="droplist">História</li>
+            </a>
+            <hr>
+            <a href="#grade-curricular">
+                <li class="droplist">Grade Curricular</li>
+            </a>
+            <hr>
+            <a href="#entrevistas">
+                <li class="droplist">Entrevistas</li>
+            </a>
+            <hr>
+            <a href="#alunos-desenvolvedores">
+                <li class="droplist">Desenvolvedores</li>
+            </a>
+        </ul>
+    </div>
+    <main>
+        <div class="slogan">
+            <h1 class="f1">Guia completo sobre o curso de</h1>
+            <br>
+            <h1 class="high">Automação Industrial</h1>
+        </div>
+    </main>
+    <br>
+    <ul id="fotos" class="carrossel titles">
+        <li class="sliderText">Automação 21/22/23<br><img class="sliderPhoto" src="fotteste.jpg"></li>
+        <li class="sliderText">Laboratório de AutoCAD<br><img class="sliderPhoto" src="lab_cad.jpg"></li>
+        <li class="sliderText">Laboratório de Eletrônica<br><img class="sliderPhoto" src="lab_eletronica.jpg"></li>
+        <li class="sliderText">Laboratório de CEL<br><img class="sliderPhoto" src="lab_comandos.jpg"></li>
+        <li class="sliderText">Laboratório de SD<br><img class="sliderPhoto" src="lab_sd.jpg"></li>
+        <li class="sliderText">Experiência de Robótica<br><img class="sliderPhoto" src="sensor.jpg"></li>
+        <li class="sliderText">Laboratório de Informática<br><img class="sliderPhoto" src="lab_info.jpg"></li>
+        <li class="sliderText">Experiência de SD<br><img class="sliderPhoto" src="exp_sd_contador.jpg"></li>
+    </ul>
+    <nav>
+        <h1 id="historia" class="high titles">História</h1>
+        <p class="parag">Para entender como ocorreu a automação industrial, é importante analisarmos os acontecimentos
+            ocorridos nos anos 1950. Nesse período, começavam a ser desenvolvidos mecanismos que promoviam a
+            movimentação automática dos materiais.</p>
+
+        <p class="parag">Sistemas comuns ao nosso dia a dia, como o fechamento de portas, controle de velocidade, temperatura,
+            iluminação e outras diversas atividades passaram a ser comandadas automaticamente, sem a necessidade de
+            homens estarem ordenando constantemente os processos.</p>
+        <p class="parag">Turing é considerado o pai da inteligência artificial por ser pioneiro ao sugerir que as
+            máquinas poderiam fazer o mesmo que os humanos: usar as informações disponíveis para resolver problemas e
+            tomar decisões. Os primeiros sistemas de automação foram idealizados no fim do século XIX quando o mundo
+            presenciava tal revolução.</p>
+        <p class="parag">As raízes da automação vêm de tempos bem distantes, mais especificamente de 1898. Esse foi o
+            ano em que Nikola Tesla desenvolveu aquele que seria o primeiro controle remoto. Em seu experimento, Tesla usou ondas de rádio para controlar um barco de
+            brinquedo</p>
+        <p class="parag">Atualmente, a quarta revolução, conhecida como Indústria 4.0, é apresentada com alterações que
+            transformam a relações de produção, com o auxílio da internet, além de transformar o papel da mão de obra
+            humana.</p>
+
+
+        <h1 id="grade-curricular" class="high titles">Grade Curricular</h1>
+        <p class="parag" style="text-align: center;">As grades curriculares de cada ano dentro do curso de automação:
+        </p>
+        <div>
+            <p class="f1">1° ano</p>
+            <p class="f2">
+                Mecânica, Sistemas Digitais &#40;SD&#41;, Eletricidade Básica, Metrologia, Informática &#40;INF&#41;,
+                Lógica de Programação &#40;LOG&#41;,
+                Desenho Técnino e Tecnologia Mecânica.
+            </p>
+
+            <p class="f1">2° ano</p>
+            <p class="f2">
+                Comandos Elétricos &#40;CEL&#41;, Sistemas Digitais, Desenho Assistido por Computador &#40;AutoCAD&#41;,
+                Gestão e
+                Organização Industrial, Sistemas Operacionais, Linguagem de Programação &#40;LP&#41;, Eletrônica
+                Analógica,
+                Microprocessadores, Robótica e Informática.
+            </p>
+
+            <p class="f1">3° ano</p>
+            <p class="f2">
+                Automação, Sistemas de Manufatura Flexível, Linguagem de Programação, Microprocessadores, Instrumentação
+                e Controle de Processos, Controles Hidraulicos e Pneumáticos, Eletrônica Industrial e Redes Industriais.
+            </p>
+        </div>
+
+        <h1 id="entrevistas" class="high titles">Entrevistas</h1>
+        <div class="videos">
+
+            <div class="iframe-container content">
+                <iframe src="https://www.youtube.com/embed/ywdqnFl7ZkE?si=lnHKSiKWFMnlFEkE"
+                    title="Entrevista com Bruno Soncino" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <br>
+
+            <div class="iframe-container content">
+                <iframe src="https://www.youtube.com/embed/7YiZ2KnfmL4?si=0kE9jKzI3vR-CXZ9"
+                    title="Entrevista com Leandro Pimenta" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <br>
+
+            <div class="iframe-container content">
+                <iframe src="https://www.youtube.com/embed/mZXBBAswPCM?si=pIJjyWwGQ2zDyufq"
+                    title="Entrevista com Ricardo Saad" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <br>
+        </div>
+
+        <h1 id="alunos-desenvolvedores" class="high titles">Alunos Desenvolvedores</h1>
+        <p class="devsParag" style="text-align: center;">Desenvolvido 100% por alunos de Automação Industrial
+        </p>
+        <br>
+        <div class="alunos">
+            <div class="aluno1">
+                <img src="caroline_1C.jpg" alt="">
+                <p class="alunoText">Ana Caroline <br>1°C</p>
+            </div>
+            <div class="aluno2">
+                <img src="rafa_1C.jpg" alt="">
+                <p class="alunoText">Rafaela <br>1°C</p>
+            </div>
+            <div class="aluno3">
+                <img src="isabelle_1C.jpg" alt="">
+                <p class="alunoText">Isabelle <br>1°C</p>
+            </div>
+            <div class="aluno4">
+                <img src="pollyana_1C.jpg" alt="">
+                <p class="alunoText">Pollyana <br>1°C</p>
+            </div>
+            <div class="aluno5">
+                <img src="cristian_2C.jpg" alt="">
+                <p class="alunoText">Cristian <br>2°C</p>
+            </div>
+            <div class="aluno6">
+                <img src="eduardo_2C.jpg" alt="">
+                <p class="alunoText">Eduardo <br>2°C</p>
+            </div>
+            <div class="aluno7">
+                <img src="vinicius_2C.jpg" alt="">
+                <p class="alunoText">Vinicius <br>2°C</p>
+            </div>
+            <div class="aluno8">
+                <img src="maki_2C.jpg" alt="">
+                <p class="alunoText">Maki <br>2°C</p>
+            </div>
+        </div>
+    </nav>
+    <br>
+    <footer>
+        <div class="paragFooter">&copy;Copyright. Todos os Direitos Reservados. Desenvolvido pelos alunos do curso de Automação Industrial do CTIG - UNESP.</div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="app.js" type="text/javascript"></script>
+</body>
+
+</html>
